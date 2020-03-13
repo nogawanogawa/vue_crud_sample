@@ -1,5 +1,6 @@
 import RegisterPage from "@/components/pages/RegisterPage.vue"
 import SearchPage from "@/components/pages/SearchPage.vue"
+import SamplePage from "@/components/pages/Sample_2.vue"
 import DetailPage from "@/components/pages/DetailPage.vue"
 import UpdatePage from "@/components/pages/UpdatePage.vue"
 import DeletePage from "@/components/pages/DeletePage.vue"
@@ -10,6 +11,9 @@ export default [{
 }, {
     path: '/Home',
     component: SearchPage
+}, {
+    path: '/Sample',
+    component: SamplePage
 }, {
     path: '/Register',
     component: RegisterPage
